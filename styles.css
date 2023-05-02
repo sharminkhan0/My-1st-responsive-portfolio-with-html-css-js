@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: ' Monospace', serif, Sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+}
