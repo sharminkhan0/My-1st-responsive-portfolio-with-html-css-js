@@ -98,7 +98,7 @@ font-size: 60px;
 
 #about{
     padding: 80px 0;
-    color: #5e5656;
+    color: #4f4b4b;
 }
 
 .row{
@@ -123,7 +123,7 @@ font-size: 60px;
 .sub-titles {
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #4f4b4b;
 }
 
 .tab-titles {
@@ -137,7 +137,7 @@ font-size: 60px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    color: #fff;
+    color: #4f4b4b;
 }
 
 .tab-links::after {
@@ -160,7 +160,7 @@ font-size: 60px;
 }
 
 .tab-links.active-link:hover {
-    color: #beaeb3;
+    color: #d2300ce9;
 }
 
 .tab-contents ul li {
@@ -169,7 +169,7 @@ font-size: 60px;
 }
 
 .tab-contents ul li span {
-    color: #b54769;
+    color: #c43864;
     font-size: 14px;
 }
 
