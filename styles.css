@@ -154,3 +154,16 @@ font-size: 60px;
 .tab-links.active-link::after {
      width: 50%;
 }
+
+.tab-links.active-link:hover::after {
+    width: 100%;
+}
+
+.tab-links.active-link:hover {
+    color: #beaeb3;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+}
