@@ -125,3 +125,17 @@ font-size: 60px;
     font-weight: 600;
     color: #fff;
 }
+
+.tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+}
