@@ -33,3 +33,21 @@ p {
 .container{
     padding: 10px 10%;
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 160px;
+    filter: drop-shadow (10px 10px 90px rgba(255, 254, 254, 0.993));
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
