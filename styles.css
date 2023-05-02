@@ -78,3 +78,18 @@ nav ul li a {
   nav ul li a:hover {
       color: #beaeb3;
   }
+
+  .header-text {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.header-text h1 span {
+color: #ff004f;
+font-size: 60px;
+}
