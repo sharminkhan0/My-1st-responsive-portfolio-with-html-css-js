@@ -98,7 +98,7 @@ font-size: 60px;
 
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #5e5656;
 }
 
 .row{
@@ -109,4 +109,19 @@ font-size: 60px;
 
 .about-col-1{
     flex-basis: 35%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+
+.sub-titles {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
 }
