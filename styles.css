@@ -234,3 +234,16 @@ font-size: 60px;
     background: #ff004f;
     transform: translateY(-10px);
 }
+
+/*---------portfolio-------------*/
+
+#portfolio {
+    padding: 50px 0;
+    }
+
+.work-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
