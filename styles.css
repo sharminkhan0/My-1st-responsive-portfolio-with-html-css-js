@@ -321,3 +321,12 @@ font-size: 60px;
     color: #fff;
     transition: background 0.5s;
     }
+
+    .btn:hover {
+        background: #ff004f; 
+     }
+     
+     form btn2:active {
+         background: #ff004f;
+         transform: translateY(4px);
+     }
