@@ -350,3 +350,20 @@ font-size: 60px;
  margin-top: 10px;
  padding-top: 30px;
 }
+
+.contact-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons {
+    margin-top: 45px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
