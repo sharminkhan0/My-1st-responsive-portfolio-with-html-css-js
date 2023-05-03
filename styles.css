@@ -247,3 +247,16 @@ font-size: 60px;
     grid-gap: 40px;
     margin-top: 50px;
 }
+
+.work {
+    border-radius: 10px; 
+    position: relative;
+    overflow: hidden; 
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transfrom 0.5s;
+}
