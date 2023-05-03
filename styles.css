@@ -432,3 +432,19 @@ form btn2:active {
     margin-top: 20px;
     padding-left: 40%;
 }
+
+/*--------css for small screens------------*/
+
+nav .fas {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    #header {
+        background-image: url(images/Background\ Phone.png);
+    }
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
