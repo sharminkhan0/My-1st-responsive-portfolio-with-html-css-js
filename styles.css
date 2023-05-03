@@ -521,3 +521,14 @@ nav .fas {
         grid-template-columns: auto;
     }
 
+    .work-list {
+        grid-template-columns: auto;
+    }
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
+
