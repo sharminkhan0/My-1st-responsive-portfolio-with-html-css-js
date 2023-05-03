@@ -223,3 +223,14 @@ font-size: 60px;
     margin-top: 20px;
     display: inline-block;
 }
+
+.services-list div a:hover {
+    color: #56de3b;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.services-list div:hover {
+    background: #ff004f;
+    transform: translateY(-10px);
+}
