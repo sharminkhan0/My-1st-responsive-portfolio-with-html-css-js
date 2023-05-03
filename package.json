@@ -1,0 +1,23 @@
+{
+  "name": "my-1st-responsive-portfolio-with-html-css",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio with html, css, js.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharminkhan0/My-1st-responsive-portfolio-with-html-css-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharminkhan0/My-1st-responsive-portfolio-with-html-css-js/issues"
+  },
+  "homepage": "https://github.com/sharminkhan0/My-1st-responsive-portfolio-with-html-css-js#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
