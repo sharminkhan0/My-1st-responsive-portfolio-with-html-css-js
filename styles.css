@@ -367,3 +367,15 @@ font-size: 60px;
     display: inline-block;
     transition: transform 0.5s;
 }
+
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn.btn2 {
+   display: inline-block;
+   background: #ff004f;
+   cursor: pointer;
+   transition: background 0.5s; 
+}
