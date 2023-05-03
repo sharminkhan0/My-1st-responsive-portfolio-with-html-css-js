@@ -379,3 +379,16 @@ font-size: 60px;
    cursor: pointer;
    transition: background 0.5s; 
 }
+
+.btn.btn2:hover {
+    background: #924d62;
+}
+
+.btn.btn2:active {
+    background: #924d62;
+    transform: translateY(4px);
+}
+
+.contact-right form {
+    width: 100%;
+} 
