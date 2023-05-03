@@ -404,3 +404,21 @@ form input, form textarea {
     font-size: 18px;
     border-radius: 6px;
 }
+
+form btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+    transition: background 0.5s;
+}
+
+form btn2:hover {
+    background: #924d62;
+}
+
+form btn2:active {
+    background: #924d62;
+    transform: translateY(4px);
+}
