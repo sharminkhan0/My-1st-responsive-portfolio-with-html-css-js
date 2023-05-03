@@ -260,3 +260,23 @@ font-size: 60px;
     display: block;
     transition: transfrom 0.5s;
 }
+
+.layer {
+    width: 100%;
+    height: 0%;
+    background-image: linear-gradient(to top ,rgba (0,0,0,0.7), (255,0,79,1.000));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:  40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    
+ }
