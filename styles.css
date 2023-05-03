@@ -180,3 +180,17 @@ font-size: 60px;
 .tab-contents.active-tab {
     display: block;
 }
+
+/*-------servises------*/
+
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 40px;
+      margin-top: 50px;
+      
+}
