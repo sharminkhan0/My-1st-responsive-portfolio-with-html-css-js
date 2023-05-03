@@ -448,3 +448,17 @@ nav .fas {
         margin-top: 100%;
         font-size: 16px;
     }
+
+    .header-text h1{
+        font-size: 30px;
+        
+    }
+
+    .header-text h1 span {
+        font-size: 30px;
+        }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
