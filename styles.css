@@ -422,3 +422,13 @@ form btn2:active {
     background: #924d62;
     transform: translateY(4px);
 }
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+    padding-left: 40%;
+}
