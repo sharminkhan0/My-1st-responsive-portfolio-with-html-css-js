@@ -285,6 +285,11 @@ font-size: 60px;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
+    color: #8cd4c3f3;
+}
+
+.layer p {
+    color: #8cd4c3f3;
 }
 
 .layer a {
