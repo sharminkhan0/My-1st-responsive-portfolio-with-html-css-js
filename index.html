@@ -42,11 +42,10 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user15.png" />
+                    <img src="./images/user15.png">
                 </div>
-
                 <div class="about-col-2">
-                    <h1 class="sub-titles">About Me</h1>
+                    <h1 class="sub-title">About Me</h1>
                     <p>Hello! My name is Shamin,
                         and I'm a Full-Stack Software Developer who graduated from Microverse,
                         an online training program that teaches development using pair programming
@@ -58,10 +57,9 @@
 
                         <div class="tab-titles">
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience </p>
                             <p class="tab-links" onclick="opentab('education')">Education</p>
                         </div>
-
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
                                 <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
@@ -215,34 +213,49 @@
 <!------js------->
 
 <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
 
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                 tablink.classlist.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                 tabcontent.classlist.remove("active-tab");
-            }
-            event.currentTarget.classlist.add("active-link");
-            document.getElementById(tabename).classList.add("active-tab");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
         }
-
-    </script>
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); 
+    }
+</script>
 
 <script>
     var sidemeu = document.getElementById("sidemenu");
-
+    
     function openmenu(){
         sidemeu.style.right = "0";
     }
-
     function closemenu(){
         sidemeu.style.right = "-200px";
     }
 </script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbx6F0_A8mQEBXpB1CFD2xJpqoGSxIoVHk3VGyy2KYRrx_RPj3l5opTkzLQo-jryAnl6Zw/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
 
 </body>
