@@ -94,17 +94,17 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-                                                                                                                                         (back to top) 
+ (back to top) 
 
 ⭐️ Show your support 
 If you like this project please don't hesitate to support me with your valued contribution and don't forget to star the repo to reach more people.
 
-                                                                                                                                          (back to top)
+(back to top)
 
 🙏 Acknowledgments 
 
 I would like to thank unique way of practicing how to code, and also Freecodecamp and w3school for their practical articles that helped me to make this project.
 
-                                                                                                                                          (back to top)
+(back to top)
 
 📝 License This project is MIT licensed.
