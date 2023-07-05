@@ -1,25 +1,23 @@
 # 📗 Table of Contents
 
-    📖 About the Project 
-      🛠 Built With 
-         Tech Stack
-         Key Features 
-     🚀 Live Demo [[https://sharminkhan0.github.io/My-1st-responsive-portfolio-with-html-css-js/]
-     
-  💻 Getting Started 
-       Prerequisites 
-       Setup 
-       Install 
-       Usage 
-       Run 
-       tests 
-       Deployment 
-       
- 👥 Authors 🔭 Future Features 
- 🤝 Contributing 
- ⭐️ Show your support 
- 🙏 Acknowledgements 
- 📝 License 
+ 📖 About the Project
+    🛠 Built With
+       Tech Stack
+       Key Feature
+ 🚀 Live Demo
+ 💻 Getting Started
+     Prerequisites
+     Setup
+     Install
+     Usage
+     Run tests
+     Deployment
+👥 Authors
+🔭 Future Features
+🤝 Contributing
+⭐️ Show your support
+🙏 Acknowledgements
+📝 License
 
  📖 My-1st-responsive portfolio The project is designed to provide information, improve basic coding knowledge, and provide practice. Built with HTML, CSS, and JavaScript. The main objective of this project is to start practicing the professional way to work with CSS HTML and JavaScript in responsive design, using the basic structure, data query, flexbox and all following a template in Google. My-1st-responsive portfolio Project
 
