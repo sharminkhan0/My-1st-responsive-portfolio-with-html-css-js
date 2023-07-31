@@ -30,7 +30,8 @@
      Responsive for different devices                                                                                                (back to top)
 
 # 🚀 Live Demo 
-     Live Demo Link [https://sharminkhan0.github.io/My-1st-responsive-portfolio-with-html-css-js/]                                   (back to top)
+     Live Demo Link 
+     (https://sharminkhan0.github.io/My-1st-responsive-portfolio-with-html-css-js/)                                   (back to top)
 
 # 💻 Getting Started
   To get a local copy up and running, follow these steps.
