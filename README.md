@@ -27,11 +27,13 @@
    Key Features 
      Add the linter for the project to fix the errors and clean the codeok_hand 
      User-friendly Interface: Simple and intuitive interface for a seamless user experience. rocket 
-     Responsive for different devices                                                                                                (back to top)
+     Responsive for different devices                                                                                               
 
 # 🚀 Live Demo 
      Live Demo Link 
-     (https://sharminkhan0.github.io/My-1st-responsive-portfolio-with-html-css-js/)                                   (back to top)
+     (https://sharminkhan0.github.io/My-1st-responsive-portfolio-with-html-css-js/)                                  
+     
+     
 
 # 💻 Getting Started
   To get a local copy up and running, follow these steps.
